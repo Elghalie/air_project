@@ -1,0 +1,13 @@
+# Exclure les caches Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclure le contenu des répertoires de données
+# (conserver uniquement les fichiers d'architecture)
+data/*
+!data/.gitkeep
+
+# Exclure les checkpoints Jupyter Notebooks
+.ipynb_checkpoints/

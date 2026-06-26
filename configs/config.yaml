@@ -1,0 +1,11 @@
+project:
+  random_seed: 42
+
+data:
+  target_column: pm25
+  test_size: 0.2
+
+preprocessing:
+  handle_missing: median
+  outlier_threshold: 1.5
+  scale_features: true
